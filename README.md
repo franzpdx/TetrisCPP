@@ -23,5 +23,5 @@ Tetris is a registered trademark of The Tetris Company! You are viewing an indep
 ## User Interface
 
 - **Gallery**: The following are some screenshots from the 2007 build:
-![Screenshot](/doc/tetriscpp1.png)![Screenshot](/doc/tetriscpp2.png)![Screenshot](/doc/tetriscpp3.png)![Screenshot](/doc/tetriscpp4.png)![Screenshot](/doc/tetriscpp5.png)![Screenshot](/doc/tetriscpp6.png)![Screenshot](/doc/tetriscpp7.png)![Screenshot](/doc/tetriscpp8.png)
+![Screenshot](/doc/tetriscpp1.jpg)![Screenshot](/doc/tetriscpp2.jpg)![Screenshot](/doc/tetriscpp3.jpg)![Screenshot](/doc/tetriscpp4.jpg)![Screenshot](/doc/tetriscpp5.jpg)![Screenshot](/doc/tetriscpp6.jpg)![Screenshot](/doc/tetriscpp7.jpg)![Screenshot](/doc/tetriscpp8.jpg)
   
