@@ -1,0 +1,17 @@
+<settings>
+	<width value="10" />
+	<height value="22" />
+	<level value="0" />
+	<appearance value="1" />
+	<background value="0" />
+	<track value="1" />
+	<music value="1" />
+	<sound value="1" />
+	<permutation value="1" />
+	<next value="1" />
+	<frame value="1" />
+	<grid value="1" />
+	<fullscreen value="0" />
+	<IP value="127.0.0.1" />
+	<LastIP value="127.0.0.1" />
+</settings>
