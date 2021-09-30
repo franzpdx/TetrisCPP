@@ -14,11 +14,27 @@ Additional features:
 * The user can change the size of the playing board. Tetris games tend to have a standard board size, and when experimenting with this feature users may find that difficulty increases quickly as the board width and height are decreased!
 * User can select between several different graphic skins for block appearance.
 
+## Design
+
+Here is the class diagram, showing the major functions:
+
+![Class Diagram](/doc/ClassDiagram.png)
+
+The main loop passes the user input and current timestamp to its member objects through the advance() function. Along with the display() function, these are communicated down through the classes as individual objects act on them.
+
+## Improvements
+
+These are improvements that could be done for this project:
+
+This project was built in 2007, using dependencies that have not been maintained. If you attempt to build it in 2021, expect to experience difficulty with these dependencies! I am considering updating it with current OpenGL libraries.
+
+These c++ header files contain not only function declarations, but also definitions. Definitions should really be moved to accompanying .cpp files. 
+
+Tetris block display is done on a very granular level. It would be more efficient to gather the whole board's state and render it at once, using instancing to take a single tetris block model and translate a copy of it into every appropriate location.
+
 ## Notice
 
-This project was built in 2007, using dependencies that have not been maintained. If you attempt to build it in 2021, expect to experience difficulty with these dependencies! As the author, I would like to explore bringing this project over to the Unity environment as another educational exercise.
-
-Tetris is a registered trademark of The Tetris Company! You are viewing an independant non-commercial project.
+Tetris is a registered trademark of The Tetris Company! You are viewing an independent non-commercial project.
 
 ## User Interface
 
