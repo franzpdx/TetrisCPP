@@ -1,11 +1,10 @@
-# Tetris C++
-This is a Tetris game!
+# C++ & OpenGL Tetris 
 
 ## Purpose
 
 This was my senior project, finished in 2007. It meets requirements through the following features:
 * The design is object-oriented.
-* It features client-server architecture. There is a multiplayer mode available by launching the server app, where sessions of the Tetris app can connect online using the server's IP. Players can host and join games on the server with up to 4 players in a session.
+* It features client-server architecture. There is a multiplayer mode available by launching the server application, where sessions of the Tetris app can connect online using the server's IP. Players can host and join games on the server with up to 4 players in a session, and multiple sessions on the server.
 * A database is used by the server to save high scores. There are database options to either use a SQL Server instance, or to write to a flat (text) file.
 * This project uses OpenGL for a 3D graphic environment and FMOD for sound and music.
 * An installer is built using the Nullsoft Scriptable Install System (NSIS) which will install the software in Program Files, update the registry, and optionally create shortcuts on the start menu and desktop
@@ -31,6 +30,8 @@ This project was built in 2007, using dependencies that have not been maintained
 These c++ header files contain not only function declarations, but also definitions. Definitions should really be moved to accompanying .cpp files. 
 
 Tetris block display is done on a very granular level. It would be more efficient to gather the whole board's state and render it at once, using instancing to take a single tetris block model and translate a copy of it into every appropriate location.
+
+The font used in the game should be replaced with a more legible font.
 
 ## Notice
 
